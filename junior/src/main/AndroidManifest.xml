@@ -31,6 +31,9 @@
         <activity android:name=".ScaleActivity" />
         <activity android:name=".CaptureActivity" />
         <activity android:name=".IconActivity" />
+
+        <activity android:name=".StateActivity" />
+        <activity android:name=".ShapeActivity" />
     </application>
 
 </manifest>
