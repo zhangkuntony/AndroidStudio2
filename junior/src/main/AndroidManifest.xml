@@ -35,6 +35,8 @@
         <activity android:name=".StateActivity" />
         <activity android:name=".ShapeActivity" />
         <activity android:name=".NineActivity" />
+
+        <activity android:name=".CalculatorActivity" />
     </application>
 
 </manifest>
