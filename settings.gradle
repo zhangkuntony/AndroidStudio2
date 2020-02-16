@@ -1,2 +1,2 @@
-include ':app', ':junior'
+include ':app', ':junior', ':middle'
 rootProject.name='HelloWorld'
