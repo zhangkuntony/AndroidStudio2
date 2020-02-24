@@ -39,6 +39,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btn_checkbox:
                 intent = new Intent(this, CheckboxActivity.class);
                 break;
+            case R.id.btn_switch_default:
+                intent = new Intent(this, SwitchDefaultActivity.class);
+                break;
                 default:
                     break;
         }
