@@ -42,6 +42,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btn_switch_default:
                 intent = new Intent(this, SwitchDefaultActivity.class);
                 break;
+            case R.id.btn_switch_ios:
+                intent = new Intent(this, SwitchIOSActivity.class);
+                break;
                 default:
                     break;
         }

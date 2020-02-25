@@ -22,6 +22,7 @@
         <activity android:name=".FrameActivity" />
         <activity android:name=".CheckboxActivity" />
         <activity android:name=".SwitchDefaultActivity" />
+        <activity android:name=".SwitchIOSActivity" />
     </application>
 
 </manifest>
