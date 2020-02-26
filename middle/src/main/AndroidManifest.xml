@@ -20,9 +20,15 @@
         <activity android:name=".RelativeXmlActivity" />
         <activity android:name=".RelativeCodeActivity" />
         <activity android:name=".FrameActivity" />
+
         <activity android:name=".CheckboxActivity" />
         <activity android:name=".SwitchDefaultActivity" />
         <activity android:name=".SwitchIOSActivity" />
+        <activity android:name=".RadioHorizontalActivity" />
+        <activity android:name=".RadioVerticalActivity" />
+
+        <activity android:name=".SpinnerDropdownActivity" />
+        <activity android:name=".SpinnerDialogActivity" />
     </application>
 
 </manifest>
