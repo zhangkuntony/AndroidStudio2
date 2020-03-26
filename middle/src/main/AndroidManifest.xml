@@ -29,6 +29,7 @@
 
         <activity android:name=".SpinnerDropdownActivity" />
         <activity android:name=".SpinnerDialogActivity" />
+        <activity android:name=".SpinnerIconActivity" />
     </application>
 
 </manifest>

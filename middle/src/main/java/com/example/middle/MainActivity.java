@@ -60,6 +60,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btn_spinner_dialog:
                 intent = new Intent(this, SpinnerDialogActivity.class);
                 break;
+            case R.id.btn_spinner_icon:
+                intent = new Intent(this, SpinnerIconActivity.class);
+                break;
                 default:
                     break;
         }
