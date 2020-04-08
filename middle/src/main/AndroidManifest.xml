@@ -30,6 +30,14 @@
         <activity android:name=".SpinnerDropdownActivity" />
         <activity android:name=".SpinnerDialogActivity" />
         <activity android:name=".SpinnerIconActivity" />
+
+        <activity android:name=".EditSimpleActivity" />
+        <activity android:name=".EditCursorActivity" />
+        <activity android:name=".EditBorderActivity" />
+
+        <activity android:name=".EditHideActivity" />
+        <activity android:name=".EditJumpActivity" />
+        <activity android:name=".EditAutoActivity" />
     </application>
 
 </manifest>

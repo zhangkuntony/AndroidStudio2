@@ -24,6 +24,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.btn_spinner_drapdown).setOnClickListener(this);
         findViewById(R.id.btn_spinner_dialog).setOnClickListener(this);
         findViewById(R.id.btn_spinner_icon).setOnClickListener(this);
+        findViewById(R.id.btn_edit_simple).setOnClickListener(this);
+        findViewById(R.id.btn_edit_cursor).setOnClickListener(this);
+        findViewById(R.id.btn_edit_border).setOnClickListener(this);
+        findViewById(R.id.btn_edit_hide).setOnClickListener(this);
+        findViewById(R.id.btn_edit_jump).setOnClickListener(this);
+        findViewById(R.id.btn_edit_auto).setOnClickListener(this);
     }
 
     @Override
@@ -62,6 +68,24 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btn_spinner_icon:
                 intent = new Intent(this, SpinnerIconActivity.class);
+                break;
+            case R.id.btn_edit_simple:
+                intent = new Intent(this, EditSimpleActivity.class);
+                break;
+            case R.id.btn_edit_cursor:
+                intent = new Intent(this, EditCursorActivity.class);
+                break;
+            case R.id.btn_edit_border:
+                intent = new Intent(this, EditBorderActivity.class);
+                break;
+            case R.id.btn_edit_hide:
+                intent = new Intent(this, EditHideActivity.class);
+                break;
+            case R.id.btn_edit_jump:
+                intent = new Intent(this, EditJumpActivity.class);
+                break;
+            case R.id.btn_edit_auto:
+                intent = new Intent(this, EditAutoActivity.class);
                 break;
                 default:
                     break;
