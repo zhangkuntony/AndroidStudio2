@@ -30,6 +30,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.btn_edit_hide).setOnClickListener(this);
         findViewById(R.id.btn_edit_jump).setOnClickListener(this);
         findViewById(R.id.btn_edit_auto).setOnClickListener(this);
+        findViewById(R.id.btn_act_jump).setOnClickListener(this);
+        findViewById(R.id.btn_act_rotate).setOnClickListener(this);
+        findViewById(R.id.btn_act_home).setOnClickListener(this);
+        findViewById(R.id.btn_act_uri).setOnClickListener(this);
+        findViewById(R.id.btn_act_request).setOnClickListener(this);
     }
 
     @Override
@@ -86,6 +91,21 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btn_edit_auto:
                 intent = new Intent(this, EditAutoActivity.class);
+                break;
+            case R.id.btn_act_jump:
+                intent = new Intent(this, ActJumpActivity.class);
+                break;
+            case R.id.btn_act_rotate:
+                intent = new Intent(this, ActRotateActivity.class);
+                break;
+            case R.id.btn_act_home:
+                intent = new Intent(this, ActHomeActivity.class);
+                break;
+            case R.id.btn_act_uri:
+                intent = new Intent(this, ActUriActivity.class);
+                break;
+            case R.id.btn_act_request:
+                intent = new Intent(this, ActRequestActivity.class);
                 break;
                 default:
                     break;
