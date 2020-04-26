@@ -35,6 +35,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.btn_act_home).setOnClickListener(this);
         findViewById(R.id.btn_act_uri).setOnClickListener(this);
         findViewById(R.id.btn_act_request).setOnClickListener(this);
+
+        findViewById(R.id.btn_mortgage).setOnClickListener(this);
     }
 
     @Override
@@ -106,6 +108,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btn_act_request:
                 intent = new Intent(this, ActRequestActivity.class);
+                break;
+            case R.id.btn_mortgage:
+                intent = new Intent(this, MortgageActivity.class);
                 break;
                 default:
                     break;

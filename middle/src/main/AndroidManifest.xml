@@ -50,6 +50,8 @@
         <activity android:name=".ActUriActivity" />
         <activity android:name=".ActRequestActivity" />
         <activity android:name=".ActResponseActivity" />
+
+        <activity android:name=".MortgageActivity" />
     </application>
 
 </manifest>

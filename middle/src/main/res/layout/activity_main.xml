@@ -251,6 +251,33 @@
                     android:text="请求参数和应答参数" />
 
             </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="3.6 实战项目-房贷计算器" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_text_check"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="文本校验" />
+
+                <Button
+                    android:id="@+id/btn_mortgage"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="房贷计算器" />
+            </LinearLayout>
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
